@@ -1,0 +1,64 @@
+@media (max-width: 600px) {
+    .card {
+        width: 381px;
+        height: 679px;
+        flex-direction: column;
+    }
+
+    .card .img-product {
+        width: 381px;
+        height: 269px;
+        background: url('../images/image-product-mobile.jpg') center center no-repeat;
+        background-size: cover;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card .desc {
+        width: 100%;
+        padding: 27px;
+    }
+
+    .card .desc .type {
+        letter-spacing: 6.5px;
+        margin-bottom: 16px;
+    }
+
+    .card .desc .title {
+        font-size: 35px;
+        letter-spacing: 0.3px;
+        line-height: 36px;
+        margin-bottom: 17px;
+    }
+
+    .card .desc .product-desc {
+        line-height: 25px;
+        letter-spacing: 1px;
+    }
+
+    .card .desc .price {
+        margin-bottom: 19px;
+    }
+
+    .card .desc .price .new {
+        font-size: 35px;
+        margin-right: 22px;
+    }
+
+    .card .desc .price .old {
+        font-size: 15px;
+    }    
+
+    .card .button {
+        font-size: 16px;
+        letter-spacing: 0.5px;
+    }
+
+    .card .button img {
+        padding-right: 16px;
+        width: 33px;
+    }
+
+    .attribution {
+        font-size: 10px;
+    }
+}   

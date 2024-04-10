@@ -24,9 +24,14 @@ Os usuários poderão:
 - Interagir com o elementos;
 
 ### Screenshots
+  Design Desktop:
+![](./design/Screenshot_1.png)
 
-![](./)
 
+![](./design/active-states.gif)
+
+Design Mobile: <br>
+![](./design/Screenshot_2.png)  
 
 ### Links
 
@@ -41,15 +46,15 @@ Os usuários poderão:
 - CSS 
 - Flexbox
 - Variáveis de root
+- Layout Responsivo
 
 ### O que eu aprendi
 
-Com esse desafio aprendi melhor a usar ícones em conjunto com os elementos do site, e o alinhamento de divs com imagens e elementos.
+Com esse desafio pratiquei a responsividade do site, fazendo uma versão para mobile, o uso do flex, variáveis e centralização dos elementos.
 
 ### Continuação do meu desenvolvimento
 
-
-
+Vou continuar a estudar centralização, com o objetivo de fazer projetos cada vez mais complexos até a minha primeira vaga de desenvolvedor!
 ## Autor
 
 - Frontend Mentor - [andre-pixioline](https://www.frontendmentor.io/profile/andre-pixioline)

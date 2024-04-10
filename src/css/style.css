@@ -20,7 +20,7 @@ main {
 }
 
 .card .img-product {
-    width: 300px;
+    width: 50%;
     background: url('../images/image-product-desktop.jpg') center center no-repeat; 
     background-size: cover;
     border-radius: 10px 0 0 10px;
@@ -29,7 +29,7 @@ main {
 .card .desc {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 50%;
     padding: 32px;
 }
 
@@ -48,6 +48,7 @@ main {
     line-height: 32.4px;
     letter-spacing: -0.2px;
     margin-bottom: 23px;
+    color: var(--dark-blue);
 }
 
 .card .desc .product-desc {
@@ -60,7 +61,7 @@ main {
 .card .desc .price {
     display: flex;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 28px;
 }
 
 .card .desc .price .new {
@@ -74,28 +75,44 @@ main {
 .card .desc .price .old {
     font-size: 13px;
     text-decoration:  line-through;
+    color: var(--grayish-blue);
 }
 
+.card .button {
+    height: 53px;
+    color:  var(--white);
+    background-color: var(--dark-cyan);
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+}
 
+.card .button img {
+    padding-right: 12px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.card .button:hover {
+    background-color: var(--dark-active);
+    cursor: pointer;
+}
 
 .attribution {
     font-size: 0.9rem;
     text-align: center;
+    color: var(--dark-blue);
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--dark-cyan);
+    transition: 0.2s ease-in-out;
+    font-weight: 700;
+}
+
+.attribution a:hover {
+    color: var(--dark-active);
 }
