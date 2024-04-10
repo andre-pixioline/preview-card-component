@@ -1,0 +1,96 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--cream);
+    font-size: 14px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 98vh;
+}
+
+.card {
+    width: 600px;
+    height: 450px;
+    display: flex;
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.card .img-product {
+    width: 300px;
+    height: 450px;
+    background: url('../images/image-product-desktop.jpg') center center no-repeat; 
+    background-size: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.card .desc {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 450px;
+    padding: 30px;
+}
+
+.card .desc .type {
+    padding: 2px;
+    letter-spacing: 5px;
+    text-decoration: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 18px;
+}
+
+.card .desc .title {
+    font-family: "Fraunces", serif;
+    font-size: 32.5px;
+    line-height: 32.5px;
+    letter-spacing: -0.2px;
+    padding-left: 2px;
+    margin-bottom: 23px;
+}
+
+.card .desc .product-desc {
+    padding-left: 2px;
+    letter-spacing: 0.1px;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+
+.card .desc .price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .desc .price .new{
+    font-family: "Fraunces", serif;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
