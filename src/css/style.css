@@ -13,7 +13,7 @@ main {
 
 .card {
     width: 600px;
-    height: 450px;
+    height: 449px;
     display: flex;
     background-color: var(--white);
     border-radius: 10px;
@@ -21,7 +21,6 @@ main {
 
 .card .img-product {
     width: 300px;
-    height: 450px;
     background: url('../images/image-product-desktop.jpg') center center no-repeat; 
     background-size: cover;
     border-radius: 10px 0 0 10px;
@@ -31,45 +30,51 @@ main {
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 450px;
-    padding: 30px;
+    padding: 32px;
 }
 
 .card .desc .type {
-    padding: 2px;
     letter-spacing: 5px;
     text-decoration: bold;
     text-transform: uppercase;
     font-size: 12px;
-    margin-bottom: 18px;
+    margin-bottom: 20px;
+    color: var(--grayish-blue);
 }
 
 .card .desc .title {
     font-family: "Fraunces", serif;
     font-size: 32.5px;
-    line-height: 32.5px;
+    line-height: 32.4px;
     letter-spacing: -0.2px;
-    padding-left: 2px;
     margin-bottom: 23px;
 }
 
 .card .desc .product-desc {
-    padding-left: 2px;
     letter-spacing: 0.1px;
     line-height: 23px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+    color: var(--grayish-blue);
 }
 
 .card .desc .price {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
 }
 
-.card .desc .price .new{
+.card .desc .price .new {
     font-family: "Fraunces", serif;
-    
+    color: var(--dark-cyan);    
+    font-size: 32px;
+    letter-spacing: 0.2px;
+    margin-right: 19px;
 }
 
+.card .desc .price .old {
+    font-size: 13px;
+    text-decoration:  line-through;
+}
 
 
 
